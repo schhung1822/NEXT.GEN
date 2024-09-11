@@ -1,0 +1,116 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.career_heading {
+    font-size: 6rem;
+    color: #252525;
+    text-align: center;
+    margin-bottom: 72px;
+    line-height: 6.2rem;
+}
+
+.career_desc {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #e8b312;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.career_item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-left: 32px;
+}
+
+.career_info {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 64px;
+}
+
+.career_img {
+    margin-right: 16px;
+}
+
+.career_img i {
+    font-size: 2.4rem;
+    color: #fff;
+    padding: 16px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #e8b312;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.career_item--title {
+    font-size: 1.6rem;
+    color: #252525;
+    line-height: 2rem;
+    margin-bottom: 4px;
+}
+
+.career_item--desc {
+    font-size: 1.6rem;
+    color: #808291;
+    line-height: 2rem;
+}
+
+.career_JD {
+    padding: 60px 0;
+}
+
+.career_JD--title {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: #252525;
+    margin-top: 32px;
+    
+}
+
+.career_JD--list {
+    margin-top: 16px;
+    list-style: none;
+}
+
+
+
+.career_JD--text {
+    font-size: 1.6rem;
+    color: #808291;
+    line-height: 2.4rem;
+}
+
+.career_footer {
+    background-image: url(../../../assets/img/nextg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.career_bg {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 100px 0 80px;
+
+}
+
+.career_box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.career_footer--title {
+    font-size: 4.5rem;
+    line-height: 5.4rem;
+    color: #fff ;
+}
