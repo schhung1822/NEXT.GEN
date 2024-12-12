@@ -290,7 +290,7 @@
     }
 
     .slider .slider_info {
-        margin-top: 240px;
+        margin-top: 240px !important;
     }
 
     .slider_info {
