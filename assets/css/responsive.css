@@ -23,6 +23,7 @@
 
     .value_title {
         padding: 0 48px;
+
     }
 
     .map_info {
@@ -271,7 +272,11 @@
 /* Mobile */
 @media (max-width: 739px) {
     .hidden-mobile {
-        display: none;
+        display: none !important;
+    }
+
+    .txt_center {
+        text-align: center;
     }
 
     .header_btn,
@@ -307,6 +312,7 @@
 
     .value_title {
         padding: 0 16px;
+        font-size: 3rem;
     }
 
     .news {
@@ -340,14 +346,17 @@
         font-size: 4rem;
     }
 
+    .content_title,
     .slider_title {
-        font-size: 4rem;
-        line-height: 4.8rem;
+        font-size: 3rem;
+        line-height: 3.8rem;
     }
 
-    .value_title {
-        font-size: 4rem;
-        line-height: 4.8rem;
+    .content_desc,
+    .slider_desc {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        text-align: justify;
     }
 
     .nav_list {
