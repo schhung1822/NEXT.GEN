@@ -594,6 +594,7 @@ body {
 
 .footer_cs a {
     margin: 0 8px;
+    white-space: nowrap;
 }
 
 /* CALL NOW */
