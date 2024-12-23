@@ -271,6 +271,28 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html, body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body::-webkit-scrollbar-track,
+    body::-webkit-scrollbar-thumb,
+    body::-webkit-scrollbar {
+        display: none !important;
+    }
+
     .hidden-mobile {
         display: none !important;
     }
@@ -299,7 +321,8 @@
     }
 
     .slider_info {
-        padding: 0 32px;
+        padding: 0 16px;
+        box-sizing: border-box;
     }
 
     .slider_more {
@@ -329,7 +352,8 @@
     }
 
     .navbar {
-        width: 360px;
+        width: 100%;
+        max-width: 360px;
     }
 
     .nav_list {
@@ -431,6 +455,7 @@
     .tab_list {
         flex-wrap: wrap;
         border-radius: 16px;
+        width: 100%;
     }
 
     .tab_item {
@@ -455,15 +480,5 @@
         margin-right: 16px;
         padding: 40px;
         text-align: center;
-    }
-
-    .culture,
-    .numbers,
-    .brands,
-    .update,
-    .update_box,
-    .partner,
-    .value {
-        width: 100% !important;
     }
 }
