@@ -605,6 +605,10 @@ body {
         z-index: 999999;
     }
 
+    .contact_now:first_child {
+        display: none;
+    }
+
     .hotline-phone-ring {
     position: relative;
     visibility: visible;
