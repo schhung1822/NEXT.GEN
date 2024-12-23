@@ -456,4 +456,14 @@
         padding: 40px;
         text-align: center;
     }
+
+    .culture,
+    .numbers,
+    .brands,
+    .update,
+    .update_box,
+    .partner,
+    .value {
+        width: 100% !important;
+    }
 }
