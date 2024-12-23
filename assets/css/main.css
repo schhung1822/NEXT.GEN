@@ -605,7 +605,7 @@ body {
         z-index: 999999;
     }
 
-    .hotline-phone-ring:first_child {
+    .contact_now .hotline-phone-ring:first-child {
         display: none;
     }
 
