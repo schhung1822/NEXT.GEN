@@ -16,8 +16,8 @@
     background-color: #fff;
     padding: 44px;
     border-radius: 20px;
-    margin: auto 32px;
-    width: 30%;
+    margin: auto 0;
+    width: 40%;
 }
 
 .map_list {
@@ -179,4 +179,10 @@
     cursor: pointer;
     background-color: #1d466e;
     transition: linear .2s;
+}
+
+@media (min-width: 480px) and (max-width: 1080px) {
+    .map_info {
+        marrgin-left: 32px;
+    }
 }

@@ -2,6 +2,24 @@ body {
     background-color: #fff;
 }
 
+.hover-lift {
+  display: inline-block !important;
+  transition: transform .25s ease, box-shadow .25s ease !important;
+  will-change: transform !important;
+}
+.hover-lift:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 10px 18px rgba(0,0,0,.12), 0 6px 6px rgba(0,0,0,.08) !important;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent; /* tắt nháy xanh */
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /* một số trình duyệt cần dạng rgba */
+  outline: none;
+}
+
+
+
 /* HEADER */
 
 .header1 {
@@ -47,16 +65,18 @@ body {
     transition: top 0.3s;
 }
 
+@media(max-width: 480px) {
+    .header2 {
+        padding: 0 !important;
+    }
+}
+
 .header_left,
 .header_right {
     display: flex;
     align-items: center;
 } 
 
-.header_logo {
-    display: block;
-    padding: 24px 48px 24px 24px;
-}
 
 .header_logo img {
     height: 4.4rem;
@@ -786,3 +806,12 @@ body {
     -webkit-transform: rotate(0) scale(1) skew(1deg);
     }
     }
+    
+    .header_logo {
+            padding: 8px 10px 8px 10px !important;
+        }
+        
+    .header2 {
+        padding: 0 !important;
+    }
+
